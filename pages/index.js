@@ -1,4 +1,8 @@
 import Head from 'next/head'
+import Link from 'next/link'
+import Script from 'next/script'
+
+
 import Image from 'next/image'
 import hmenu from '../public/img/hamMenu.svg'
 import rlogo from '../public/img/rlogo.svg'
@@ -22,12 +26,14 @@ export default function Home (){
         />
                        
         </div>
+        
         <div className="nav_item nav_items2">
-        <Image
+        <Link href="/post">
+          <Image
           alt="rlogo"
           src={rlogo}
-        />
-        
+          />
+        </Link>
         
         </div>
         <div className="nav_item nav_items3">HORI-HI</div>
@@ -122,6 +128,12 @@ export default function Home (){
 
         `}
       </style>
+      <Script strategy="lazyOnload">
+        {`
+          console.log('it works!!!');
+        `}
+
+      </Script>
     </div>
   )
 }
