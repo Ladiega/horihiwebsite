@@ -29,12 +29,14 @@ export default function Home (){
         
         <div className="nav_item nav_items2">
         <Link href="/post">
+         <a>
           <Image
           alt="rlogo"
           src={rlogo}
-          />
+          /> 
+          </a>
         </Link>
-        
+       
         </div>
         <div className="nav_item nav_items3">HORI-HI</div>
         

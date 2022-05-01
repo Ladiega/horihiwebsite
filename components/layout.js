@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Hori-Hi'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'horihi web site with NextJs'
 
 export default function Layout({ children, home }) {
   return (

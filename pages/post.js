@@ -4,6 +4,7 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 
 
+
 export default function Post (){
     return(
 
@@ -11,7 +12,9 @@ export default function Post (){
         <Layout home>
             <Head>
                 <title>{siteTitle}</title>
+               
             </Head>
+
             <section className={utilStyles.heading}>
                 <p>Esta es la prueba de los la implementacion del Layout</p>
                 <Link href="/">
