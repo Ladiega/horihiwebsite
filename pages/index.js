@@ -2,12 +2,20 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Script from 'next/script'
 
-
 import Image from 'next/image'
+
 import hmenu from '../public/img/hamMenu.svg'
 import rlogo from '../public/img/rlogo.svg'
 import horihibaner from '../public/img/horihibaner.svg'
 import imgprofile from '../public/img/imgprofile.svg'
+
+import tattoo1 from '../public/img/tattoo1.svg'
+import tattoo2 from '../public/img/tattoo2.svg'
+import tattoo3 from '../public/img/tattoo3.svg'
+
+import tattoo4 from '../public/img/tattoo4.svg'
+import tattoo5 from '../public/img/tattoo5.svg'
+import tattoo6 from '../public/img/tattoo6.svg'
 
 export default function Home (){
   return(
@@ -95,7 +103,7 @@ Hope to see you soon!!!.</p>
 
 
         </div>
-        <div className="layer_container3">container3
+        <div className="layer_container3">
 
           <div className="container3_text">
             <div className="container3_text1">TATTOO</div>
@@ -103,11 +111,28 @@ Hope to see you soon!!!.</p>
           </div>
 
           <div className="container3_img">
-            <div className="container3_img1">img1</div>
-            <div className="container3_dot1">dot1</div>
-            <div className="container3_img2">img2</div>
-            <div className="container3_dot2">dot2</div>
-            <div className="container3_img3">img3</div>
+            <div className="container3_img1">
+              <Image
+                alt="tattoo1"
+                src={tattoo1}
+              />
+            </div>
+            <div className="container3_dot1"></div>
+
+            <div className="container3_img2">
+              <Image
+                alt="tattoo2"
+                src={tattoo2}
+              />
+            </div>
+
+            <div className="container3_dot2"></div>
+            <div className="container3_img3">
+              <Image
+                alt="tattoo3"
+                src={tattoo3}
+              />
+            </div>
             <div className="container3_text3">vewAll</div>
           </div>
 
@@ -117,7 +142,37 @@ Hope to see you soon!!!.</p>
 
 
 
-        <div className="layer_container4">container4</div>
+        <div className="layer_container4">container4
+          <div className="container4_text">
+            <div className="container4_text1">水彩</div>
+            <div className="container4_text2">watercolor</div>
+          </div>
+          <div className="container4_img">
+            <div className="container4_img1">
+              <Image
+              alt="tattoo4"
+              src={tattoo4}
+              />
+            </div>
+            <div className="container4_img2">
+              <Image
+              alt="tattoo5"
+              src={tattoo5}
+              />
+            </div>
+            <div className="container4_img3">
+              <Image
+              alt="tattoo6"
+              src={tattoo6}
+              />
+            </div>
+            <div className="container4_text3">vewAll</div>
+          </div>
+          <div className="container4_text4">水彩</div>
+
+        </div>
+
+
         <div className="layer_container5">container5</div>
         <div className="footer_container">footer
         <div className="footer_container2">footer2</div>
@@ -228,7 +283,15 @@ Hope to see you soon!!!.</p>
           .container2_text5{
             display:flex;
             align-items:end;
+            cursor:pointer;
           
+          }
+
+          .container2_text5:hover{
+            text-decoration-line:underline;
+            text-decoration-color:red;
+            transition:0.5s;
+            
           }
                    
           .container2_dot{
@@ -238,7 +301,7 @@ Hope to see you soon!!!.</p>
             height:0.5rem;
             margin-right:0.5rem;
             margin-bottom:0.5rem;
-            
+          
           }
           .container2_text6{
             writing-mode:vertical-rl;
@@ -253,8 +316,85 @@ Hope to see you soon!!!.</p>
           .layer_container3{
             background:black;
             color:white;
+            padding-top:2rem;
 
           }
+
+          .container3_text{
+            display:flex;
+            justify-content:space-between;
+            margin-left:2rem;
+            margin-right:1.5rem;
+            
+          }
+
+          .container3_text1{
+            font-size:18px;
+            font-weight:900;
+            writing-mode:vertical-rl;
+            text-orientation:upright;
+          }
+          .container3_text2{
+            font-size:18px;
+            font-weight:400;
+            writing-mode:vertical-rl;
+            text-orientation:upright;
+          }
+
+          .container3_img{
+            display:flex;
+            flex-direction:column;
+            align-items:center;       
+            text-align:center;
+          }
+          .container3_img1{
+            cursor:pointer;
+          }
+          .container3_dot1{
+            background:red;
+            border-radius:50%;
+            width:0.5rem;
+            height:0.5rem;
+            margin-top:0.5rem;
+            margin-bottom:0.5rem;           
+          }
+          .container3_img2{
+            cursor:pointer;
+          }
+          .container3_dot2{
+            background:red;
+            border-radius:50%;
+            width:0.5rem;
+            height:0.5rem;
+            margin-top:0.5rem;
+            margin-bottom:0.5rem;
+          }
+          .container3_img3{
+            cursor:pointer;
+          }
+
+          .container3_text3{
+            background:white;
+            color:black;
+            font-size:12px;
+            font-weight:500;
+            margin-top:2rem;
+            padding-left:1.5rem;
+            padding-right:1.5rem;
+            border-radius:0.5rem;
+            cursor:pointer;
+          }
+          .container3_text4{
+            font-size:18px;
+            font-weight:400;
+            writing-mode:vertical-rl;
+            text-orientation:upright;
+            margin-left:2rem;
+            padding-bottom:2rem;
+          }
+
+
+
           .layer_container4{
             background:white;
           }
