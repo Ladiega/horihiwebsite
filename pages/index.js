@@ -83,15 +83,40 @@ Hope to see you soon!!!.</p>
           </div>
 
         <div className="global_text5">
-        <div className="container2_text5">
-            <div className="container2_dot"></div>
-            <p>LEARN MORE</p>
+
+          <div className="container2_text5">
+              <div className="container2_dot"></div>
+              <div className="dot2">LEARN MORE</div>
           </div>
-          <div className="container2_text6">私について</div>
-        </div>
-        </div>
         
-        <div className="layer_container3">container3</div>
+            <div className="container2_text6">私について</div>
+        
+        </div>
+
+
+        </div>
+        <div className="layer_container3">container3
+
+          <div className="container3_text">
+            <div className="container3_text1">TATTOO</div>
+            <div className="container3_text2">入れ墨</div>
+          </div>
+
+          <div className="container3_img">
+            <div className="container3_img1">img1</div>
+            <div className="container3_dot1">dot1</div>
+            <div className="container3_img2">img2</div>
+            <div className="container3_dot2">dot2</div>
+            <div className="container3_img3">img3</div>
+            <div className="container3_text3">vewAll</div>
+          </div>
+
+          <div className="container3_text4">入れ墨</div>
+        
+        </div>
+
+
+
         <div className="layer_container4">container4</div>
         <div className="layer_container5">container5</div>
         <div className="footer_container">footer
@@ -161,7 +186,6 @@ Hope to see you soon!!!.</p>
           }
           .container2_text2{
             display:flex;
-            flex-direction:clolumn;
             align-items:center;
             font-weight:700;
             font-size:18px;
@@ -192,23 +216,44 @@ Hope to see you soon!!!.</p>
             font-size:10px;
             
           }
+                  
           .global_text5{
-           
+           display:flex;
+           justify-content:space-between;
+           margin-left:2.5rem;
+           margin-top:1rem;
+           margin-bottom:2rem;
           }
+                   
           .container2_text5{
             display:flex;
-            flex-direction:row;
+            align-items:end;
+          
           }
+                   
           .container2_dot{
             background:red;
             border-radius:50%;
             width:0.5rem;
             height:0.5rem;
+            margin-right:0.5rem;
+            margin-bottom:0.5rem;
+            
           }
+          .container2_text6{
+            writing-mode:vertical-rl;
+            text-orientation:upright;
+            font-size:18px;
+            font-weight:700;
+            margin-right:1.5rem;
+           
+          }
+
 
           .layer_container3{
             background:black;
             color:white;
+
           }
           .layer_container4{
             background:white;
