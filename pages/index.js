@@ -142,10 +142,13 @@ Hope to see you soon!!!.</p>
 
 
 
-        <div className="layer_container4">container4
+        <div className="layer_container4">
           <div className="container4_text">
             <div className="container4_text1">水彩</div>
-            <div className="container4_text2">watercolor</div>
+            <div className="container4_text2">WATERCOLOR  <div 
+            className="container4_dot1"></div>
+            </div>
+            
           </div>
           <div className="container4_img">
             <div className="container4_img1">
@@ -398,6 +401,64 @@ Hope to see you soon!!!.</p>
           .layer_container4{
             background:white;
           }
+          .container4_text{
+            display:flex;
+            justify-content:space-between;
+            margin-left:2rem;
+            margin-right:2rem;
+            font-size:18px;
+            font-weight:700;
+            padding-top:2rem;
+           
+          }
+          .container4_text1{
+            writing-mode:vertical-rl;
+            text-orientation:upright; 
+          }
+          .container4_text2{
+            display:flex;
+            align-items:center;
+            writing-mode:vertical-rl;
+            text-orientation:upright;
+          }
+          .container4_dot1{
+            background:red;
+            border-radius:50%;
+            margin-top:0.5rem;
+            width:0.5rem;
+            height:0.5rem;
+          }
+          .container4_img{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+          }
+          .container4_img1{
+            margin-bottom:2rem;
+          }
+          .container4_img2{
+            margin-bottom:2rem;
+          }
+          .container4_text3{
+            margin-top:2rem;
+            background:black;
+            color:white;
+            border-radius:0.5rem;
+            padding-left:1.5rem;
+            padding-right:1.5rem;
+            font-size:12px;
+          }
+          .container4_text4{
+            writing-mode:vertical-rl;
+            text-orientation:upright;
+            font-size:18px;
+            font-weight:700;
+            margin-bottom:2rem;
+            margin-left:94.5%;
+          }
+
+
+          
           .layer_container5{
             background:black;
             color:white;
