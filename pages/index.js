@@ -202,8 +202,14 @@ Hope to see you soon!!!.</p>
           .nav_item{
             /* margin-left:1rem; */
           }
+          .nav_items1{
+            cursor:pointer;
+          }
           .nav_items2{
             margin-left:3rem;
+          }
+          .nav_items3{
+            cursor:pointer;
           }
           .layer_container1{
             background:black;
