@@ -17,6 +17,8 @@ import tattoo4 from '../public/img/tattoo4.svg'
 import tattoo5 from '../public/img/tattoo5.svg'
 import tattoo6 from '../public/img/tattoo6.svg'
 
+import horihiw from '../public/img/horihiw.svg'
+
 export default function Home (){
   return(
     <div>
@@ -176,7 +178,36 @@ Hope to see you soon!!!.</p>
         </div>
 
 
-        <div className="layer_container5">container5</div>
+        <div className="layer_container5">
+          <div className="container5_text">
+            <div className="container5_text1">CONTACT</div>
+            <div className="container5_text2">お問い合わせ</div>
+          </div>
+          <div className="container5_circle">
+              <div className="circle_content">
+                  
+                  <form action="">
+                  <label htmlFor="name">NAME
+                    <input type="text" name="name" id="email"/>
+                    
+                  </label>
+                  <label htmlFor="email">EMAIL
+                    <input type="email" name="email" id="email"/>
+                  </label>
+                  <textarea name="message" id="message" cols="30" rows="10">MESSAGE</textarea>
+                </form>
+              </div>
+          </div>
+          <div className="container5_text2">
+            <div className="container5_text3">お問い合わせ </div>  
+            <div className="container5_text4">
+              <Image
+                alt="horihi_img"
+                src={horihiw}
+              />
+            </div>
+          </div>
+        </div>
         <div className="footer_container">footer
         <div className="footer_container2">footer2</div>
         </div>
@@ -462,6 +493,42 @@ Hope to see you soon!!!.</p>
           .layer_container5{
             background:black;
             color:white;
+            
+          }
+          .container5_text{
+            display:flex;
+            justify-content:space-between;
+            padding-top:2rem;
+            font-size:18px;
+            font-weight:700;
+            
+
+          }
+          .container5_text1{
+            margin-left:2rem;
+            writing-mode:vertical-rl;
+            text-orientation:upright;
+
+          }
+
+          .container5_text2{
+            margin-right:2rem;
+            writing-mode:vertical-rl;
+            text-orientation:upright;
+          }
+          .container5_circle{
+            background:red;
+            text-align:center;
+            border-radius:50%;
+            height:33rem;
+            width:33rem;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            margin:2rem;
+          }
+          .circle_content{
+            display:flex;
           }
           .footer_container{
             background:white;
