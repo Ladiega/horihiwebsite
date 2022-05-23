@@ -531,8 +531,8 @@ Hope to see you soon!!!.</p>
           .container5_circle{
             background:red;
             border-radius:50%;
-            height:33rem;
-            width:33rem;
+            height:24rem;
+            width:24rem;
             display:flex;
             align-items:center;
             justify-content:center;
@@ -545,6 +545,7 @@ Hope to see you soon!!!.</p>
           }
           .name{
             font-weight:700;
+            margin-top:2.3rem;
           }
           .name input{
             border:none;
@@ -561,7 +562,7 @@ Hope to see you soon!!!.</p>
             display:flex;
             flex-direction:column;
             font-weight:700;
-            margin-top:2rem;
+            margin-top:1.5rem;
           }
           .textarea textarea{
             margin-top:1rem;
@@ -588,6 +589,7 @@ Hope to see you soon!!!.</p>
             flex-direction:row;
             justify-content:space-between;
             margin-right:2rem;
+           
             
           }
           .container5_text3{
