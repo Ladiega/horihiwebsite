@@ -19,6 +19,7 @@ import tattoo6 from '../public/img/tattoo6.svg'
 
 import horihiw from '../public/img/horihiw.svg'
 
+import instalogo from '../public/img/instalogo.svg'
 export default function Home (){
   return(
     <div>
@@ -199,7 +200,7 @@ Hope to see you soon!!!.</p>
                       </label>
                    </div>
                    
-                   <div className="textarea">MESSAGE
+                   <div className="textarea" >MESSAGE
                    :
                       <textarea name="message" id="message" cols="30" rows="10">MESSAGE</textarea>
                    </div>
@@ -224,9 +225,47 @@ Hope to see you soon!!!.</p>
 
           </div>
         </div>
-        <div className="footer_container">footer
-        <div className="footer_container2">footer2</div>
+        <div className="footer_container">footer 
+          <div className="footer_container1">
+            <div className="footer_container1_dot"></div>
+
+
+            <div className="footer_container_grup2">
+              <div className="followme">Follow me:</div>
+              <div className="instagram">Instagram</div>
+              <div className="jp">フォローしてください </div>
+            </div>
+
+            <div className="instagarm_logo">
+              <Image
+              alt="instalogo"
+              src={instalogo}
+              />
+            </div>
+          </div>
+
+           <div className="footer_container_group3_dot2"></div>
+            <div className="footer_group3_2">
+              <div className="footer_group3_1">Desing by:</div>
+              <div className="footer_group3_2">LadiegaTattoo</div>
+              <div className="footer_group3_3">のデザインです</div>
+            </div>
+
+            <div className="footer_container_group4">All rights reserved © 2022</div>
+          <div className="footer_container2">
+           
+          </div>
+          <div className="footer_container3"></div>
+
         </div>
+
+
+        <div className="footer_container2">
+          <div className="footer_container2_1">HOME</div>
+          <div className="footer_container2_2">ホームページ
+</div>
+        </div>
+       
       </div>
 
       <style jsx>
@@ -607,8 +646,24 @@ Hope to see you soon!!!.</p>
           .footer_container{
             background:white;
           }
+          .footer_container1_dot{
+            background:red;
+            border-radius:50%;
+            height:0.5rem;
+            width:0.5rem;
+          }
+          
+
+          .footer_container_group3_dot2{
+            background:red;
+            border-radius:50%;
+            height:0.5rem;
+            width:0.5rem;
+          }
           .footer_container2{
             background:red;
+            color:white;
+            display:flex;
             
             
           }
