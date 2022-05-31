@@ -187,7 +187,7 @@ Hope to see you soon!!!.</p>
           <div className="container5_circle">
               <div className="circle_content">
                   
-                  <form action="">
+                  <form action="/send-data-here" method="post">
                     <div className="name">
                       <label htmlFor="name">NAME
                       <input type="text" name="name" id="email"/>
@@ -202,7 +202,7 @@ Hope to see you soon!!!.</p>
                    
                    <div className="textarea" >MESSAGE
                    :
-                      <textarea name="message" id="message" cols="30" rows="10">MESSAGE</textarea>
+                      <textarea name="message" id="message" cols="30" rows="10" >MESSAGE</textarea>
                    </div>
                    
                    <div className="send">
@@ -225,7 +225,7 @@ Hope to see you soon!!!.</p>
 
           </div>
         </div>
-        <div className="footer_container">footer 
+        <div className="footer_container">
           <div className="footer_container1">
             <div className="footer_container1_dot"></div>
 
@@ -664,7 +664,7 @@ Hope to see you soon!!!.</p>
             background:red;
             color:white;
             display:flex;
-            
+            justify-content:space-between;
             
           }
 
