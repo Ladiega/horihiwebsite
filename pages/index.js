@@ -17,6 +17,9 @@ import tattoo4 from '../public/img/tattoo4.svg'
 import tattoo5 from '../public/img/tattoo5.svg'
 import tattoo6 from '../public/img/tattoo6.svg'
 
+import horihiw from '../public/img/horihiw.svg'
+
+import instalogo from '../public/img/instalogo.svg'
 export default function Home (){
   return(
     <div>
@@ -176,10 +179,93 @@ Hope to see you soon!!!.</p>
         </div>
 
 
-        <div className="layer_container5">container5</div>
-        <div className="footer_container">footer
-        <div className="footer_container2">footer2</div>
+        <div className="layer_container5">
+          <div className="container5_text">
+            <div className="container5_text1">CONTACT</div>
+            <div className="container5_text2">お問い合わせ</div>
+          </div>
+          <div className="container5_circle">
+              <div className="circle_content">
+                  
+                  <form action="/send-data-here" method="post">
+                    <div className="name">
+                      <label htmlFor="name">NAME
+                      <input type="text" name="name" id="email"/>
+                      </label>
+                    </div>
+                   
+                   <div className="email">
+                      <label htmlFor="email">EMAIL
+                      <input type="email" name="email" id="email"/>
+                      </label>
+                   </div>
+                   
+                   <div className="textarea" >MESSAGE
+                   :
+                      <textarea name="message" id="message" cols="30" rows="10" >MESSAGE</textarea>
+                   </div>
+                   
+                   <div className="send">
+                     <button type="submit">参加する</button>
+                   </div>
+                 
+                  
+                </form>
+              </div>
+          </div>
+          <div className="container5_text2">
+            <div className="container5_text3">お問い合わせ </div> 
+
+            <div className="container5_text4">
+              <Image
+                alt="horihi_img"
+                src={horihiw}
+              />
+            </div>
+
+          </div>
         </div>
+        <div className="footer_container">
+          <div className="footer_container1">
+            <div className="footer_container1_dot"></div>
+
+
+            <div className="footer_container_grup2">
+              <div className="followme">Follow me:</div>
+              <div className="instagram">Instagram</div>
+              <div className="jp">フォローしてください </div>
+            </div>
+
+            <div className="instagarm_logo">
+              <Image
+              alt="instalogo"
+              src={instalogo}
+              />
+            </div>
+          </div>
+
+           <div className="footer_container_group3_dot2"></div>
+            <div className="footer_group3_2">
+              <div className="footer_group3_1">Desing by:</div>
+              <div className="footer_group3_2">LadiegaTattoo</div>
+              <div className="footer_group3_3">のデザインです</div>
+            </div>
+
+            <div className="footer_container_group4">All rights reserved © 2022</div>
+          <div className="footer_container2">
+           
+          </div>
+          <div className="footer_container3"></div>
+
+        </div>
+
+
+        <div className="footer_container2">
+          <div className="footer_container2_1">HOME</div>
+          <div className="footer_container2_2">ホームページ
+</div>
+        </div>
+       
       </div>
 
       <style jsx>
@@ -468,12 +554,124 @@ Hope to see you soon!!!.</p>
           .layer_container5{
             background:black;
             color:white;
+            
+          }
+          .container5_text{
+            display:flex;
+            justify-content:space-between;
+            padding-top:2rem;
+            font-size:18px;
+            font-weight:700;
+            
+
+          }
+          .container5_text1{
+            margin-left:2rem;
+            writing-mode:vertical-rl;
+            text-orientation:upright;
+
+          }
+
+          
+          .container5_circle{
+            background:red;
+            border-radius:50%;
+            height:24rem;
+            width:24rem;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            margin:2rem;
+            margin-left:auto;
+            margin-right:auto;
+          }
+          .circle_content{
+            display:flex;
+          }
+          .name{
+            font-weight:700;
+            margin-top:2.3rem;
+          }
+          .name input{
+            border:none;
+            border-radius:10px;
+          }
+          .email{
+            font-weight:700;
+          }
+          .email input{
+            border:none;
+            border-radius:10px;
+          }
+          .textarea{
+            display:flex;
+            flex-direction:column;
+            font-weight:700;
+            margin-top:1.5rem;
+          }
+          .textarea textarea{
+            margin-top:1rem;
+            border:none;
+            border-radius:10px;
+          }
+          .send{
+            display:flex;
+            justify-content:center;
+          }
+          .send button{
+            
+            border:none;
+            border-radius:10px;
+            background:white;
+            font-weight:700;
+            margin-top:1rem;
+            padding:0.5rem 1rem;
+            border:2px solid black;
+            cursor:pointer;
+          }
+          .container5_text2{
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            margin-right:2rem;
+           
+            
+          }
+          .container5_text3{
+            font-size:18px;
+            font-weight:700;
+            margin-left:2rem;
+            writing-mode:vertical-rl;
+            text-orientation:upright;
+          
+          }
+          .container5_text4{
+           
+           padding-bottom:3rem;
           }
           .footer_container{
             background:white;
           }
+          .footer_container1_dot{
+            background:red;
+            border-radius:50%;
+            height:0.5rem;
+            width:0.5rem;
+          }
+          
+
+          .footer_container_group3_dot2{
+            background:red;
+            border-radius:50%;
+            height:0.5rem;
+            width:0.5rem;
+          }
           .footer_container2{
             background:red;
+            color:white;
+            display:flex;
+            justify-content:space-between;
+            
           }
 
         `}
