@@ -236,7 +236,7 @@ Hope to see you soon!!!.</p>
               <div className="jp">フォローしてください </div>
             </div>
 
-            <div className="instagarm_logo">
+            <div className="instagrarm_logo">
               <Image
               alt="instalogo"
               src={instalogo}
@@ -645,12 +645,33 @@ Hope to see you soon!!!.</p>
           }
           .footer_container{
             background:white;
+            
+          }
+          .footer_container1{
+            margin-left:2rem;
+            display:flex;
+            align-items:center;
+           
           }
           .footer_container1_dot{
             background:red;
             border-radius:50%;
             height:0.5rem;
             width:0.5rem;
+            margin-right:1rem;
+          }
+          .followme{
+            margin-top:0.5rem;
+            font-weight:700;
+          }
+          .instagram{
+            font-weight:400;
+          }
+          .jp{
+            font-weight:200;
+          }
+          .instagrarm_logo{
+            margin-left:1rem;
           }
           
 
@@ -660,14 +681,46 @@ Hope to see you soon!!!.</p>
             height:0.5rem;
             width:0.5rem;
           }
+       
+          .footer_container_group3_dot2{
+            margin-left:2rem;
+            margin-top:2rem;
+          }
+          .footer_group3_1{
+            margin-left:2rem;
+            font-weight:700;
+          }
+          .footer_group3_2{
+            margin-left:2rem;
+          }
+          .footer_group3_3{
+            margin-left:2rem;
+            font-weight:200;
+          }
+          .footer_container_group4{
+            margin-top:3rem;
+            margin-left:2rem;
+          }
           .footer_container2{
             background:red;
             color:white;
             display:flex;
             justify-content:space-between;
+            padding-top:0.5rem;
+            padding-bottom:0.5rem;
+            font-weight:700;
             
           }
+          .footer_container2_1{
+            margin-left:2rem;
+          }
+          .footer_container2_1:hover{
+           color:grey;
 
+          }
+          .footer_container2_2{
+            margin-right:2rem;
+          }
         `}
       </style>
       <Script strategy="lazyOnload">
