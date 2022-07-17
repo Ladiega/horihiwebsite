@@ -3,9 +3,10 @@ import Link from 'next/link'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 
-
+import React,{Component} from 'react'
 
 export default function Post (){
+    
     return(
 
 
@@ -24,3 +25,4 @@ export default function Post (){
         </Layout>
     )
 }
+
