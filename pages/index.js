@@ -54,6 +54,18 @@ export default function Home (){
         <div className="nav_item nav_items3">HORI-HI</div>
         
         </div>
+        <div className="navbar2_container">
+          <div className="navbar2text1">BIO</div>
+          <div className="navbar2text2">TATTOO</div>
+          <div className="navbar2logo">
+            <Image
+              alt="rlogo"
+              src={rlogo}            
+            />
+          </div>
+          <div className="navbar2text3">PAINTINGS</div>
+          <div className="navbar2text4">CONTACT</div>
+        </div>
 
         <div className="layer_container1">
         <div className="container1_img">
@@ -97,7 +109,11 @@ Hope to see you soon!!!.</p>
 
           <div className="container2_text5">
               <div className="container2_dot"></div>
-              <div className="dot2">LEARN MORE</div>
+              <div className="container2_learnmore">
+              <Link href="/about">
+                <a>LEARN MORE</a>
+              </Link>
+              </div>
           </div>
         
             <div className="container2_text6">私について</div>
@@ -147,8 +163,8 @@ Hope to see you soon!!!.</p>
 
         <div className="layer_container4">
           <div className="container4_text">
-            <div className="container4_text1">水彩</div>
-            <div className="container4_text2">WATERCOLOR  <div 
+            <div className="container4_text1">絵画 </div>
+            <div className="container4_text2">PAINTINGS<div 
             className="container4_dot1"></div>
             </div>
             
@@ -174,7 +190,7 @@ Hope to see you soon!!!.</p>
             </div>
             <div className="container4_text3">vewAll</div>
           </div>
-          <div className="container4_text4">水彩</div>
+          <div className="container4_text4">絵画</div>
 
         </div>
 
@@ -270,6 +286,8 @@ Hope to see you soon!!!.</p>
 
       <style jsx>
         {`
+       
+        
           .global_container{
             background:none;
             font-family: 'Noto Sans JP', sans-serif;
@@ -282,7 +300,8 @@ Hope to see you soon!!!.</p>
             display:flex;
             justify-content: space-between;
             align-items: center;
-            margin:0.5rem 1.5rem;
+            margin:2rem 2rem;
+            display:none;
             
           }
           .nav_item{
@@ -294,9 +313,24 @@ Hope to see you soon!!!.</p>
           .nav_items2{
             margin-left:3rem;
           }
+<<<<<<< HEAD
           .nav_items3{
             cursor:pointer;
           }
+=======
+          .navbar2_container{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            margin-left:2rem;
+            margin-right:2rem;
+            margin-top:1rem;
+            margin-bottom:1rem;
+            font-weight:500;
+            
+          }
+
+>>>>>>> 414f01ce604a91a9c533c8b69049745d5ae667c0
           .layer_container1{
             background:black;
             color:white;
@@ -397,6 +431,9 @@ Hope to see you soon!!!.</p>
             margin-right:0.5rem;
             margin-bottom:0.5rem;
           
+          }
+          .container2_learnmore > a{
+            color:black;
           }
           .container2_text6{
             writing-mode:vertical-rl;
@@ -723,11 +760,20 @@ Hope to see you soon!!!.</p>
             margin-left:2rem;
           }
           .footer_container2_1:hover{
-           color:grey;
-
+            color:gray;
           }
           .footer_container2_2{
             margin-right:2rem;
+          }
+
+          @media (max-width:600px){
+            .nav_container{
+              display:block;
+              display:flex;
+            }
+            .navbar2_container{
+              display:none
+            }
           }
         `}
       </style>
