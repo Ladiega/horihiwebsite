@@ -5,6 +5,7 @@ import ReactPlayer from 'react-player'
 
 
 
+
 export default function AboutMe(){
     return(
         <div className="global_container">
@@ -22,12 +23,17 @@ export default function AboutMe(){
                 </Link>
             </div>
             <div className="about_container2">
-                <video src=""></video>
+               
             </div>
             <div className="about_container3">
                 Container3
             </div>
-            <ReactPlayer url="https://www.youtube.com/watch?v=J-YxDDX506w&t=21s" />
+           <ReactPlayer 
+           className='videotebori'
+            url="video/tebori.mp4"
+            controls={true}
+
+           />
             
         <style jsx>{`
             
