@@ -53,18 +53,35 @@ export default function Home (){
         </div>
         <div className="nav_item nav_items3">HORI-HI</div>
         
+        
         </div>
         <div className="navbar2_container">
-          <div className="navbar2text1">BIO</div>
-          <div className="navbar2text2">TATTOO</div>
+          <div className="navbar2text1">
+            <Link href="#layer2">
+              <a >BIO</a>
+            </Link>
+          </div>
+          <div className="navbar2text2">
+            <Link href="#layer3">
+              <a >TATTOO</a>
+            </Link>
+          </div>
           <div className="navbar2logo">
             <Image
               alt="rlogo"
               src={rlogo}            
             />
           </div>
-          <div className="navbar2text3">PAINTINGS</div>
-          <div className="navbar2text4">CONTACT</div>
+          <div className="navbar2text3">
+            <Link href="#layer4">
+              <a>PAINTINGS</a>
+            </Link>
+          </div>
+          <div className="navbar2text4">
+            <Link href="#layer5">
+              <a>CONTACT</a>
+            </Link>
+          </div>
         </div>
 
         <div className="layer_container1">
@@ -97,7 +114,7 @@ export default function Home (){
              alt='imgprofile'
             />
           </div>
-          <div className="global_text4">
+          <div id="layer2"className="global_text4">
            <div className="container2_text4">
               <p>Hi, my dear friend thank you so much for taking your time and visit my website. Nice to meet you. I’m Diego but all one calls me Ladiega. I’m was born in Bogota Colombia and I’ve been tattooing since 2004. 
 In these years, I traveled around South America, most of the time, and meet a lot of good histories. Many times I took my bike and travel some roads and put myself in an apprenticeship about life and of course, the love of my life THE TATTOO as a way to live. Right now I’m living in Bogota and my principal tattoo references are influenced by the Brazilian tattoo style combining a lot of cultural interpretations.
@@ -122,7 +139,7 @@ Hope to see you soon!!!.</p>
 
 
         </div>
-        <div className="layer_container3">
+        <div id="layer3" className="layer_container3">
 
           <div className="container3_text">
             <div className="container3_text1">TATTOO</div>
@@ -161,7 +178,7 @@ Hope to see you soon!!!.</p>
 
 
 
-        <div className="layer_container4">
+        <div id="layer4" className="layer_container4">
           <div className="container4_text">
             <div className="container4_text1">絵画 </div>
             <div className="container4_text2">PAINTINGS<div 
@@ -195,7 +212,7 @@ Hope to see you soon!!!.</p>
         </div>
 
 
-        <div className="layer_container5">
+        <div id="layer5" className="layer_container5">
           <div className="container5_text">
             <div className="container5_text1">CONTACT</div>
             <div className="container5_text2">お問い合わせ</div>
@@ -286,7 +303,9 @@ Hope to see you soon!!!.</p>
 
       <style jsx>
         {`
-       
+            * > a{
+              color:black;
+            }
         
           .global_container{
             background:none;
@@ -304,33 +323,32 @@ Hope to see you soon!!!.</p>
             display:none;
             
           }
-          .nav_item{
-            /* margin-left:1rem; */
-          }
+         
           .nav_items1{
             cursor:pointer;
           }
           .nav_items2{
             margin-left:3rem;
           }
-<<<<<<< HEAD
           .nav_items3{
             cursor:pointer;
           }
-=======
+
           .navbar2_container{
             display:flex;
             justify-content:space-between;
+            
+            position:sticky;
             align-items:center;
             margin-left:2rem;
             margin-right:2rem;
             margin-top:1rem;
             margin-bottom:1rem;
             font-weight:500;
-            
+            z-index:100;
           }
+        
 
->>>>>>> 414f01ce604a91a9c533c8b69049745d5ae667c0
           .layer_container1{
             background:black;
             color:white;
