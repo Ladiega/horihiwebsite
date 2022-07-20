@@ -58,7 +58,7 @@ export default function Home (){
         <div className="navbar2_container">
           <div className="navbar2text1">
             <Link href="#layer2">
-              <a >BIO</a>
+              <a >ABOUT ME</a>
             </Link>
           </div>
           <div className="navbar2text2">
