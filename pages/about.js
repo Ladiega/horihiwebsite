@@ -77,10 +77,11 @@ export default function AboutMe(){
             .about_global_container{
                 display:flex;
                 flex-direction:column;
+                text-align:center;
                 
                 
             }
-            .about_container1, .about_container2, .about_container3, .about_container4{
+            .about_container1, .about_container2, .about_container3, {
                 background-color:grey;
                 color:white;
                 text-align:center;
@@ -92,8 +93,12 @@ export default function AboutMe(){
                 position:absolute;  
                 overflow:hidden;          
                 opacity:70%;
-               
-               text-align:center;
+                top:0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin-left:10vw;
+             
                 
             }
            
