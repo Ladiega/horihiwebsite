@@ -18,8 +18,8 @@ export default function AboutMe(){
                 className={styles.video}
                 url="video/tebori.mp4"
                 
-                width={300}
-                height={250}
+                width="100%"
+                height="100%"
 
                 loop={true}
                 playing={true}
@@ -78,7 +78,7 @@ export default function AboutMe(){
                 display:flex;
                 flex-direction:column;
                 text-align:center;
-                
+             
                 
             }
             .about_container1, .about_container2, .about_container3, {
@@ -93,12 +93,12 @@ export default function AboutMe(){
                 position:absolute;  
                 overflow:hidden;          
                 opacity:70%;
-                top:0;
+                top:3rem;
                 left: 0;
                 right: 0;
                 bottom: 0;
-                margin-left:10vw;
-             
+                margin:auto;
+              
                 
             }
            
