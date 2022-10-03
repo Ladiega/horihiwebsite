@@ -12,10 +12,10 @@ export default function AboutMe(){
     return(
         <div className="about_global_container">
             
-            <div className="about_container4">Container4
+            <div className="about_container4">
                 <div className='player_container'>
                 <ReactPlayer 
-                className='videotebori'
+                className={styles.video}
                 url="video/tebori.mp4"
                 
                 width={300}
@@ -34,7 +34,7 @@ export default function AboutMe(){
             <Navbar className='nav_container'/>
             
             <div className="about_container1">
-               <div className="about_img_container">
+              <div className="about_img_container">
                     <Images
                 className={styles.img}
                 alt="tebori"
@@ -46,10 +46,26 @@ export default function AboutMe(){
             </div>
             
             <div className="about_container2">Container 2
-               
+              <div className="about_img_container">
+                    <Images
+                className={styles.img}
+                alt="tebori"
+                src={tebori}
+                height={100}
+                width={100}
+                />
+               </div> 
             </div>
-            <div className="about_container3">
-                Container3
+            <div className="about_container3"> Container3
+                <div className="about_img_container">
+                    <Images
+                className={styles.img}
+                alt="tebori"
+                src={tebori}
+                height={100}
+                width={100}
+                />
+               </div> 
             </div>
             
            
@@ -64,36 +80,25 @@ export default function AboutMe(){
                 
                 
             }
-            .about_container1{
-                background-color:black;
+            .about_container1, .about_container2, .about_container3, .about_container4{
+                background-color:grey;
                 color:white;
                 text-align:center;
                                
             }
            
             .about_container4{
-                display:flex;
-                position:absolute;
-                background-color:black;
-                justify-content:center;
-                color:white;
+                         
+                position:absolute;  
+                overflow:hidden;          
                 opacity:70%;
-                top:3rem;
-                left:35%;   
-            }
-            .player_container {
-                background-color:red;
-            }
-            .about_img_container{
-                background-color:salmon;
-                position:relative;
-                border-radius:4rem;
+               
+               text-align:center;
                 
             }
-            .about_img_container .about_img{
-                border-radius:3rem;
-            }
            
+           
+            
          
             `}
 
