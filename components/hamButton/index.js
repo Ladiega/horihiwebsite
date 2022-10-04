@@ -1,20 +1,29 @@
 import Head from 'next/head'
 import Script from 'next/script'
+import Link from 'next/link'
+
 export default function Ham(){
     return(
         <div className="ham_contaniner">
             
 
 <header className="main-header" >
-    <a className="main-logo" href="https://progradudi.netlify.app" >
-      <strong>Progra_dudi</strong>
-    </a>
+    
     <nav id="nav" className="main-nav" >
       <div className="nav-links" >
-        <a className="link-item" href="#" >Link1</a>
-        <a className="link-item" href="#" >Link2</a>
-        <a className="link-item" href="#" >Link3</a>
-        <a className="link-item" href="#" >Link4</a>
+        <Link href="/about">
+          <a className="link-item">About</a>
+        </Link>
+        <Link href="/tattoo">
+          <a className="link-item"  >Tattoo</a>
+        </Link>
+        <Link href="/paint">
+          <a className="link-item"  >Paint</a>
+        </Link>
+        <Link href="/contact">
+           <a className="link-item"  >Contact</a>
+        </Link>
+       
       </div>
     </nav>
     <button id="button-menu" className="button-menu" >
@@ -36,8 +45,9 @@ export default function Ham(){
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    background-color: white;
-                    padding: 0 0.4rem;
+                    background-color: yellow;
+                    padding: 0; 
+                    width:0;
                   }
                   
                   .main-logo{
@@ -97,8 +107,7 @@ export default function Ham(){
                   
                   .button-menu{
                     z-index: 200;
-                    width: 40px;
-                    height: 40px;
+                    
                     border: none;
                     display: flex;
                     background: none;
@@ -109,11 +118,11 @@ export default function Ham(){
                   }
                   
                   .button-menu span{
-                    width: 37px;
-                    height: 4px;
+                    width: 30px;
+                    height: 3px;
                     margin-bottom: 5px;
                     position: relative;
-                    background: #444444;
+                    background: black;
                     border-radius: 3px;
                     transform-origin: 4px 0px;
                     transition: all .2s linear;
@@ -122,11 +131,11 @@ export default function Ham(){
                   .button-menu.close span {
                     opacity: 1;
                     transform: rotate(45deg) translate(0px, 0px);
-                    background: #ffffff;
+                    background: red;
                   }
                   
                   .button-menu.close span:nth-child(2){
-                    transform: rotate(-45deg) translate(-8px, 5px);
+                    transform: rotate(-45deg) translate(-7px, 3px);
                   }
                   
                   .button-menu.close span:nth-child(3){

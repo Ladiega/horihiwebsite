@@ -19,13 +19,13 @@ export default function Navbar (){
                 </div>
         
             <div className="nav_item nav_items2">
-                <Link href="/post">
-                <a>
+                <Link href="/about">
+               
                     <Image
                     alt="rlogo"
                     src={rlogo}
                     /> 
-                </a>
+                
                 </Link>
        
             </div>
@@ -36,7 +36,7 @@ export default function Navbar (){
         <div className="navbar2_container">
           <div className="navbar2text1">
             <Link href="#layer2">
-              <a >ABOUT ME</a>
+              <a >ABOUT</a>
             </Link>
           </div>
           <div className="navbar2text2">
@@ -45,10 +45,12 @@ export default function Navbar (){
             </Link>
           </div>
           <div className="navbar2logo">
+            <Link href='/'>
             <Image
               alt="rlogo"
               src={rlogo}            
             />
+            </Link>
           </div>
           <div className="navbar2text3">
             <Link href="#layer4">
@@ -91,6 +93,7 @@ export default function Navbar (){
             margin-left:3rem;
           }
           .nav_items3{
+            
             cursor:pointer;
           }
 
@@ -104,8 +107,12 @@ export default function Navbar (){
             margin-right:2rem;
             margin-top:1rem;
             margin-bottom:1rem;
+            font-size:13px;
             font-weight:500;
             z-index:100;
+            }
+            .navbar2logo{
+              cursor:pointer;
             }
           `} 
         

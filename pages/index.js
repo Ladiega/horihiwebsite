@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Script from 'next/script'
 
+import Ham from '../components/hamButton/index'
+
 import Image from 'next/image'
 
 import hmenu from '../public/img/hamMenu.svg'
@@ -33,10 +35,7 @@ export default function Home (){
 
         <div className="nav_container">
         <div className="nav_item nav_items1">
-        <Image
-          alt="hmenu"
-          src={hmenu}
-        />
+        <Ham/>
                        
         </div>
         
@@ -350,6 +349,7 @@ Hope to see you soon!!!.</p>
         
 
           .layer_container1{
+           
             background:black;
             color:white;
             display: flex;
@@ -788,6 +788,7 @@ Hope to see you soon!!!.</p>
             .nav_container{
               display:block;
               display:flex;
+              
             }
             .navbar2_container{
               display:none
