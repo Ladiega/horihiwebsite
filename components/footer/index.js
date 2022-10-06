@@ -112,7 +112,7 @@ export default function Footer (){
           }
           .footer_group3_2{
             text-align:left;
-            border:2px solid red;
+            
           }
           .footer_group3_2_2{
             margin-left:2rem;
