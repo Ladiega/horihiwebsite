@@ -114,6 +114,17 @@ export default function Navbar (){
             .navbar2logo{
               cursor:pointer;
             }
+
+            @media (max-width:600px){
+            .nav_container{
+              display:block;
+              display:flex;
+              
+            }
+            .navbar2_container{
+              display:none
+            }
+          }
           `} 
         
           </style>
