@@ -10,7 +10,7 @@ import photo4 from '../public/img/about/about4.jpg'
 import photo5 from '../public/img/about/about5.jpg'
 
 
-
+import Footer from '../components/footer/index'
 
 
 export default function Paint(){
@@ -137,6 +137,8 @@ export default function Paint(){
                 </div>
 
             </section>
+
+            <Footer/>
 
           
 

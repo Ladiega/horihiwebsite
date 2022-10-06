@@ -1,11 +1,8 @@
-import Navbar from '../components/navbar/index'
-
-import Link from 'next/link'
-import Images from 'next/image'
-import bioPhoto from '../public/img/about/tebori.jpg'
 import ReactPlayer from 'react-player'
 
+import Navbar from '../components/navbar/index'
 
+import Footer from '../components/footer/index'
 
 
 export default function AboutMe(){
@@ -34,7 +31,7 @@ export default function AboutMe(){
                 
             </div>
             
-           
+           <Footer/>
             
         <style jsx>{`
             a{
@@ -51,10 +48,9 @@ export default function AboutMe(){
            
             .about_container4{
                          
-                position:absolute;  
-                overflow:hidden;          
+                    
                 opacity:70%;
-                top:3rem;
+                top:4.5rem;
                 left: 0;
                 right: 0;
                 bottom: 0;

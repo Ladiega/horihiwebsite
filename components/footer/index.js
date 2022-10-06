@@ -10,10 +10,11 @@ export default function Footer (){
         <div>
             <div className="footer_container">
           <div className="footer_container1">
-            <div className="footer_container1_dot"></div>
+            
 
 
             <div className="footer_container_grup2">
+                <div className="footer_container1_dot"></div>
               <div className="followme">Follow me:</div>
               <div className="instagram">Instagram</div>
               <div className="jp">フォローしてください </div>
@@ -29,10 +30,11 @@ export default function Footer (){
             </div>
           </div>
 
-           <div className="footer_container_group3_dot2"></div>
+           
             <div className="footer_group3_2">
+                <div className="footer_container_group3_dot2"></div>
               <div className="footer_group3_1">Desing by:</div>
-              <div className="footer_group3_2">LadiegaTattoo</div>
+              <div className="footer_group3_2_2">LadiegaTattoo</div>
               <div className="footer_group3_3">のデザインです</div>
             </div>
 
@@ -76,10 +78,12 @@ export default function Footer (){
           }
           .followme{
             margin-top:0.5rem;
+            text-align:left;
             font-weight:700;
           }
           .instagram{
             font-weight:400;
+            text-align:left;
           }
           .jp{
             font-weight:200;
@@ -104,8 +108,13 @@ export default function Footer (){
           .footer_group3_1{
             margin-left:2rem;
             font-weight:700;
+            
           }
           .footer_group3_2{
+            text-align:left;
+            border:2px solid red;
+          }
+          .footer_group3_2_2{
             margin-left:2rem;
           }
           .footer_group3_3{
