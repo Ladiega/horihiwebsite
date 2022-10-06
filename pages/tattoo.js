@@ -1,6 +1,6 @@
 import Navbar from "../components/navbar"
 
-export default function tattoo(){
+export default function Tattoo(){
     return(
         <div className="tattoo_container">
             <Navbar/>

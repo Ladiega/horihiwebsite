@@ -4,6 +4,7 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import Ham from '../components/hamButton/index'
 import React,{Component} from 'react'
+import Footer from '../components/footer/index'
 
 export default function Post (){
     
@@ -29,6 +30,8 @@ export default function Post (){
             <section className={utilStyles.heading}>
                 section one
             </section>
+
+            <Footer/>
         </Layout>
     )
 }
