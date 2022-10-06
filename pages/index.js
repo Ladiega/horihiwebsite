@@ -168,7 +168,12 @@ Hope to see you soon!!!.</p>
                 src={tattoo3}
               />
             </div>
-            <div className="container3_text3">vewAll</div>
+            <div className="container3_text3">
+              <Link href="/tattoo">
+                <a>vewAll</a>
+              </Link>
+            
+            </div>
           </div>
 
           <div className="container3_text4">入れ墨</div>
@@ -204,7 +209,12 @@ Hope to see you soon!!!.</p>
               src={tattoo6}
               />
             </div>
-            <div className="container4_text3">vewAll</div>
+            <div className="container4_text3">
+             <Link href='/paintings'>
+             <a>vewAll</a>
+             
+             </Link> 
+            </div>
           </div>
           <div className="container4_text4">絵画</div>
 
@@ -594,6 +604,9 @@ Hope to see you soon!!!.</p>
             padding-left:1.5rem;
             padding-right:1.5rem;
             font-size:12px;
+          }
+          .container4_text3 a{
+            color:white;
           }
           .container4_text4{
             writing-mode:vertical-rl;
