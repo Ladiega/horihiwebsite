@@ -1,5 +1,5 @@
 import Navbar from '../components/navbar/index'
-import styles from '../components/about.module.css'
+
 import Link from 'next/link'
 import Images from 'next/image'
 import bioPhoto from '../public/img/about/tebori.jpg'
@@ -17,7 +17,7 @@ export default function AboutMe(){
             <div className="about_container4">
                 <div className='player_container'>
                 <ReactPlayer 
-                className={styles.video}
+                className={`video`}
                 url="video/tebori.mp4"
                 
                 width="100%"

@@ -152,9 +152,7 @@ export default function Paint(){
                     text-align:center;
                     border-radius:1rem;
                 }
-                .photo1{
-                    border-radius:10px;
-                }
+                
               
                 .section_two_container{
                     margin-left:2rem;
