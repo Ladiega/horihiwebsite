@@ -1,115 +1,65 @@
-import Navbar from '../components/navbar/index'
-import styles from '../components/about.module.css'
-import Link from 'next/link'
-import Images from 'next/image'
-import tebori from '../public/img/about/tebori.jpg'
-import ReactPlayer from 'react-player'
+import Navbar from "../components/navbar"
+
+import styles from "../components/about/about.module.css"
+
+import Image from 'next/image'
+import photo1 from '../public/img/about/about2.jpg'
 
 
 
-
-export default function AboutMe(){
+export default function Paint(){
     return(
-        <div className="about_global_container">
-            
-            <div className="about_container4">
-                <div className='player_container'>
-                <ReactPlayer 
-                className={styles.video}
-                url="video/tebori.mp4"
+        <div className="paint_container">
+        
+            <Navbar/>
+            <section className="section_one_container">
+               <div className="photo_container">
                 
-                width="100%"
-                height="100%"
-
-                loop={true}
-                playing={true}
-                muted={true}
-                />
+                <div className="about2">
+                    <Image
+                    className={styles.photo1}
+                    alt="Photo"
+                    src={photo1}
+                    width={300}
+                    height={180}
+                   
+                    />
                 </div>
-
-
-            </div>
-            
-                       
-            <Navbar className='nav_container'/>
-            
-            <div className="about_container1">
-              <div className="about_img_container">
-                    <Images
-                className={styles.img}
-                alt="tebori"
-                src={tebori}
-                height={100}
-                width={100}
-                />
-               </div> 
-            </div>
-            
-            <div className="about_container2">Container 2
-              <div className="about_img_container">
-                    <Images
-                className={styles.img}
-                alt="tebori"
-                src={tebori}
-                height={100}
-                width={100}
-                />
-               </div> 
-            </div>
-            <div className="about_container3"> Container3
-                <div className="about_img_container">
-                    <Images
-                className={styles.img}
-                alt="tebori"
-                src={tebori}
-                height={100}
-                width={100}
-                />
-               </div> 
-            </div>
-            
-           
-            
-        <style jsx>{`
-            a{
-                color:black;
-            }
-            .about_global_container{
-                display:flex;
-                flex-direction:column;
-                text-align:center;
-             
-                
-            }
-            .about_container1, .about_container2, .about_container3, {
-                background-color:grey;
-                color:white;
-                text-align:center;
-                               
-            }
-           
-            .about_container4{
-                         
-                position:absolute;  
-                overflow:hidden;          
-                opacity:70%;
-                top:3rem;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                margin:auto;
+                                
+               </div>
+            </section>
               
-                
-            }
-           
-           
-            
-         
-            `}
+            <section className="section_two_container">
+                <div className="text_1">
+                <p>Hi, my dear friend thank you so much for taking your time and visit my website. Nice to meet you. I’m Diego but all one calls me Ladiega. I’m was born in Bogota Colombia and I’ve been tattooing since 2004. In these years, I traveled around South America, most of the time, and meet a lot of good histories. Many times I took my bike and travel some roads and put myself in an apprenticeship about life and of course, the love of my life THE TATTOO as a way to live. Right now I’m living in Bogota and my principal tattoo references are influenced by the Brazilian tattoo style combining a lot of cultural interpretations. Hope to see you soon!!!.</p>
+                </div>
+            </section>
+            <style jsx>{`
 
-        </style>
+                .section_one_container{                             
+                    margin-left :2rem;
+                    margin-right:2rem;
+                }
+                .about2{
+                    text-align:center;
+                    border-radius:1rem;
+                }
+                .photo1{
+                    border-radius:10px;
+                }
+              
+                .section_two_container{
+                    margin-left:2rem;
+                    margin-right:2rem;
+                    text-align:justify;
+                }
+                
+                `}
+
+            </style>
+           
+        
+
         </div>
-        
-        
     )
 }

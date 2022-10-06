@@ -35,12 +35,12 @@ export default function Navbar (){
         </div>
         <div className="navbar2_container">
           <div className="navbar2text1">
-            <Link href="#layer2">
+            <Link href="/about">
               <a >ABOUT</a>
             </Link>
           </div>
           <div className="navbar2text2">
-            <Link href="#layer3">
+            <Link href="/tattoo">
               <a >TATTOO</a>
             </Link>
           </div>
@@ -53,12 +53,12 @@ export default function Navbar (){
             </Link>
           </div>
           <div className="navbar2text3">
-            <Link href="#layer4">
+            <Link href="/paintings">
               <a>PAINTINGS</a>
             </Link>
           </div>
           <div className="navbar2text4">
-            <Link href="#layer5">
+            <Link href="/contact">
               <a>CONTACT</a>
             </Link>
           </div>

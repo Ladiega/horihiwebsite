@@ -25,6 +25,10 @@ export default function Post (){
                 <a>Home</a>
                 </Link>
             </section>
+            
+            <section className={utilStyles.heading}>
+                section one
+            </section>
         </Layout>
     )
 }
