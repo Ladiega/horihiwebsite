@@ -1,7 +1,7 @@
 import ReactPlayer from 'react-player'
 
 import Navbar from '../components/navbar/index'
-
+import Form from '../components/form/index'
 import Footer from '../components/footer/index'
 
 
@@ -27,9 +27,7 @@ export default function AboutMe(){
                 </div>
             </div>                        
                        
-            <div className="about_container1">
-                
-            </div>
+           <Form/>
             
            <Footer/>
             
