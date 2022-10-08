@@ -19,7 +19,7 @@ export default function Navbar (){
                 </div>
         
             <div className="nav_item nav_items2">
-                <Link href="/about">
+                <Link href="/">
                
                     <Image
                     alt="rlogo"

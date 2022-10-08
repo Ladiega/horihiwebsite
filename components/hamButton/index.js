@@ -3,6 +3,8 @@ import Script from 'next/script'
 import Link from 'next/link'
 
 export default function Ham(){
+
+
     return(
         <div className="ham_contaniner">
             
@@ -18,7 +20,7 @@ export default function Ham(){
           <a className="link-item"  >Tattoo</a>
         </Link>
         <Link href="/paint">
-          <a className="link-item"  >Paint</a>
+          <a className="link-item"  >Paintings</a>
         </Link>
         <Link href="/contact">
            <a className="link-item"  >Contact</a>
