@@ -5,11 +5,12 @@ import Navbar from "../components/navbar"
 import styles from "../components/about/about.module.css"
 
 import Image from 'next/image'
-import photo1 from '../public/img/about/about1.jpg'
-import photo2 from '../public/img/about/about2.jpg'
-import photo3 from '../public/img/about/about3.jpg'
-import photo4 from '../public/img/about/about4.jpg'
-import photo5 from '../public/img/about/about5.jpg'
+
+import about1 from '../public/img/about/about1.jpg'
+import about2 from '../public/img/about/about2.jpg'
+import about3 from '../public/img/about/about3.jpg'
+import about4 from '../public/img/about/about4.jpg'
+import about5 from '../public/img/about/about5.jpg'
 
 
 import Footer from '../components/footer/index'
@@ -30,7 +31,7 @@ export default function Paint(){
                     <Image
                     className={styles.photo1}
                     alt="Photo"
-                    src={photo1}
+                    src={about1}
                   
                    
                     />
@@ -54,7 +55,7 @@ export default function Paint(){
                     <Image
                     className={styles.photo1}
                     alt="Photo"
-                    src={photo2}                                    
+                    src={about2}                                    
                     />
                 </div>                                
                </div>
@@ -78,7 +79,7 @@ Brazil and Argentina had and still have important tattooists in the world of tat
                     <Image
                     className={styles.photo1}
                     alt="Photo"
-                    src={photo3}                                    
+                    src={about3}                                    
                     />
                 </div>                                
                </div>
@@ -99,7 +100,7 @@ Brazil and Argentina had and still have important tattooists in the world of tat
                     <Image
                     className={styles.photo1}
                     alt="Photo"
-                    src={photo4}                                    
+                    src={about4}                                    
                     />
                 </div>                                
                </div>
@@ -121,7 +122,7 @@ He was the creator of the now-extinct Tattoo Down Babylon. that during a decade 
                     <Image
                     className={styles.photo1}
                     alt="Photo"
-                    src={photo5}                                    
+                    src={about5}                                    
                     />
                 </div>                                
                </div>
