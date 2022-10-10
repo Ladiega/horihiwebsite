@@ -59,7 +59,7 @@ export default function Form(){
         .layer_container5{
             background:black;
             color:white;
-            
+            overflow:hidden;
             
           }
           .container5_text{
@@ -68,6 +68,7 @@ export default function Form(){
             padding-top:2rem;
             font-size:18px;
             font-weight:700;
+            
             
 
           }
@@ -83,12 +84,12 @@ export default function Form(){
             
             background:red;
             border-radius:50%;
-            height:23rem;
-            width:23rem;
+            height:450px;
+            width:450px;
             display:flex;
             align-items:center;
             justify-content:center;
-            overflow:hidden;
+            
             margin:2rem;
             margin-left:auto;
             margin-right:auto;
