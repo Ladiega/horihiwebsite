@@ -19,7 +19,7 @@ export default function Ham(){
         <Link href="/tattoo">
           <a className="link-item"  >Tattoo</a>
         </Link>
-        <Link href="/paint">
+        <Link href="/paintings">
           <a className="link-item"  >Paintings</a>
         </Link>
         <Link href="/contact">
