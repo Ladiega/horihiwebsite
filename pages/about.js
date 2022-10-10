@@ -57,10 +57,10 @@ export default function Paint(){
 
             <section className="section_two_container">
                 <div className="text_1">
-                <p>My way into the professional tattoo world started in Zone Colors one of the most crucial tattoo shops in this time. I startad my linership under Nelson Neva , Caterine Acosta and Jhon Rodriguez. At this time the most popular tattoo style was the new school stuff and these times we needed a lot of visas to travel around the world. For that reason easier traveled around South America, my inspiration for traveling was the journies of Neva who did it on the road in many ways including crossing the amazon river and arriving in Brazil.
+                <p>My path in the world of professional tattooing began in Zone Colors, one of the most important tattoo shops at the moment in the city of Bogotá. I started my apprenticeship under Nelson Neva, Caterine Acosta, and Jhon Rodriguez. The most popular tattoo style was new school stuff and in these times we needed a lot of visas to travel the world. For that reason it was easier to travel around South America and my inspiration was the travels of Neva, who made it along the way in many ways, including crossing the Amazon River from Colombia to Brazil.
 
 
-                Brazil and Argentina at this time had important tattoo artists, and more development around the tattoo ways for that reason, I decided to go there and try to learn deeper about the tattoo routes.</p>
+Brazil and Argentina had and still have important tattooists in the world of tattooing, and more development around tattoo forms. That's why I decided to go there and try to learn more about the tattoo routes.</p>
 
                 </div>
 
@@ -81,10 +81,7 @@ export default function Paint(){
 
             <section className="section_two_container">
                 <div className="text_1">
-                <p>My way into the professional tattoo world started in Zone Colors one of the most crucial tattoo shops in this time. I startad my linership under Nelson Neva , Caterine Acosta and Jhon Rodriguez. At this time the most popular tattoo style was the new school stuff and these times we needed a lot of visas to travel around the world. For that reason easier traveled around South America, my inspiration for traveling was the journies of Neva who did it on the road in many ways including crossing the amazon river and arriving in Brazil.
-
-
-                Brazil and Argentina at this time had important tattoo artists, and more development around the tattoo ways for that reason, I decided to go there and try to learn deeper about the tattoo routes.</p>
+                <p>In 2011 I arrived in Porto Alegre where I met Dudu and Zk, they inspired me in the path of traditional tattooing and especially in the Japanese tattoo style. Zk invited me to work with him in the city of Sao Paulo at the New Wind and Old Wind tattoo shop in Porto Alegre. There in these times I saw, learned and met people who changed my perspective of tattooing forever.</p>
 
                 </div>
 
@@ -105,10 +102,8 @@ export default function Paint(){
 
             <section className="section_two_container">
                 <div className="text_1">
-                <p>My way into the professional tattoo world started in Zone Colors one of the most crucial tattoo shops in this time. I startad my linership under Nelson Neva , Caterine Acosta and Jhon Rodriguez. At this time the most popular tattoo style was the new school stuff and these times we needed a lot of visas to travel around the world. For that reason easier traveled around South America, my inspiration for traveling was the journies of Neva who did it on the road in many ways including crossing the amazon river and arriving in Brazil.
-
-
-                Brazil and Argentina at this time had important tattoo artists, and more development around the tattoo ways for that reason, I decided to go there and try to learn deeper about the tattoo routes.</p>
+                <p>In 2012 I met Walter from Paraguay. One of the most important tattoo artists in Latin America. He was a bridge between the Brazilian tattoo and the rest of South America.
+He was the creator of the now-extinct Down Babylon tattoo. that during a decade of events became an obligatory port of learning and camaraderie around the tattoo. This moment marked a lot in my way of seeing the profession.</p>
 
                 </div>
 
@@ -129,10 +124,9 @@ export default function Paint(){
 
             <section className="section_two_container">
                 <div className="text_1">
-                <p>My way into the professional tattoo world started in Zone Colors one of the most crucial tattoo shops in this time. I startad my linership under Nelson Neva , Caterine Acosta and Jhon Rodriguez. At this time the most popular tattoo style was the new school stuff and these times we needed a lot of visas to travel around the world. For that reason easier traveled around South America, my inspiration for traveling was the journies of Neva who did it on the road in many ways including crossing the amazon river and arriving in Brazil.
+                <p>Since 2016 I have been living in the city of Bogotá. Many thanks to those who took the time to read a little about my biography. Thank you very much to all the people who have given me a hand on this long road.
 
-
-                Brazil and Argentina at this time had important tattoo artists, and more development around the tattoo ways for that reason, I decided to go there and try to learn deeper about the tattoo routes.</p>
+Diego Humberto.</p>
 
                 </div>
 

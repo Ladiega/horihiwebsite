@@ -20,11 +20,12 @@ export default function Navbar (){
         
             <div className="nav_item nav_items2">
                 <Link href="/">
-               
+                    <a>              
                     <Image
                     alt="rlogo"
                     src={rlogo}
                     /> 
+                    </a> 
                 
                 </Link>
        
@@ -46,10 +47,12 @@ export default function Navbar (){
           </div>
           <div className="navbar2logo">
             <Link href='/'>
+              <a>
             <Image
               alt="rlogo"
               src={rlogo}            
             />
+            </a>
             </Link>
           </div>
           <div className="navbar2text3">

@@ -22,10 +22,12 @@ export default function Footer (){
 
             <div className="instagram_logo">
             <Link href='https://www.instagram.com/ladiegatattoo/?hl=es-la'>
+             <a>
               <Image
               alt="instalogo"
               src={instalogo}
               />
+              </a> 
             </Link>
             </div>
           </div>
