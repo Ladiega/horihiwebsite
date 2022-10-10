@@ -11,7 +11,8 @@ import paint5 from '../public/img/paintings/paint5.jpg'
 import paint6 from '../public/img/paintings/paint6.jpg'
 import paint7 from '../public/img/paintings/paint7.jpg'
 import paint8 from '../public/img/paintings/paint8.jpg'
-
+import paint9 from '../public/img/paintings/paint9.jpg'
+import paint10 from '../public/img/paintings/paint10.jpg'
 
 
 export default function Paint(){
@@ -66,6 +67,18 @@ export default function Paint(){
                     <Image
                     alt="photo"
                     src={paint8}
+                    />
+                </div>
+                <div className="photo">
+                    <Image
+                    alt="photo"
+                    src={paint9}
+                    />
+                </div>
+                <div className="photo">
+                    <Image
+                    alt="photo"
+                    src={paint10}
                     />
                 </div>
                 
