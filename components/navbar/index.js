@@ -36,7 +36,7 @@ export default function Navbar (){
         </div>
         <div className="navbar2_container">
           <div className="navbar2text1">
-            <Link href="/about">
+            <Link href="/">
               <a >ABOUT</a>
             </Link>
           </div>
