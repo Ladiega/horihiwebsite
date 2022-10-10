@@ -7,10 +7,10 @@ import styles from "../components/about/about.module.css"
 import Image from 'next/image'
 
 import about1 from '../public/img/about1.jpg'
-import about2 from '../public/img/about/about2.jpg'
-import about3 from '../public/img/about/about3.jpg'
-import about4 from '../public/img/about/about4.jpg'
-import about5 from '../public/img/about/about5.jpg'
+import about2 from '../public/img/about2.jpg'
+import about3 from '../public/img/about3.jpg'
+import about4 from '../public/img/about4.jpg'
+import about5 from '../public/img/about5.jpg'
 
 
 import Footer from '../components/footer/index'
