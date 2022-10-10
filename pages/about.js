@@ -103,7 +103,7 @@ Brazil and Argentina had and still have important tattooists in the world of tat
             <section className="section_two_container">
                 <div className="text_1">
                 <p>In 2012 I met Walter from Paraguay. One of the most important tattoo artists in Latin America. He was a bridge between the Brazilian tattoo and the rest of South America.
-He was the creator of the now-extinct Down Babylon tattoo. that during a decade of events became an obligatory port of learning and camaraderie around the tattoo. This moment marked a lot in my way of seeing the profession.</p>
+He was the creator of the now-extinct Tattoo Down Babylon. that during a decade of events became an obligatory port of learning and camaraderie around the tattoo. This moment marked a lot in my way of seeing the profession.</p>
 
                 </div>
 
