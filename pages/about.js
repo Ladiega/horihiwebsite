@@ -3,11 +3,11 @@ import Navbar from "../components/navbar"
 import styles from "../components/about/about.module.css"
 
 import Image from 'next/image'
-import photo1 from '../public/img/about/about1.jpg'
-import photo2 from '../public/img/about/about2.jpg'
-import photo3 from '../public/img/about/about3.jpg'
-import photo4 from '../public/img/about/about4.jpg'
-import photo5 from '../public/img/about/about5.jpg'
+import photo1 from '../../public/img/about/about1.jpg'
+import photo2 from '../../public/img/about/about2.jpg'
+import photo3 from '../../public/img/about/about3.jpg'
+import photo4 from '../../public/img/about/about4.jpg'
+import photo5 from '../../public/img/about/about5.jpg'
 
 
 import Footer from '../components/footer/index'
