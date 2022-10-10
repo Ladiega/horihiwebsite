@@ -5,16 +5,16 @@ import Footer from "../components/footer"
 
 import Image from 'next/image'
 
-import paint1 from '../public/img/paintings/paint1.jpg'
-import paint2 from '../public/img/paintings/paint2.jpg'
-import paint3 from '../public/img/paintings/paint3.jpg'
-import paint4 from '../public/img/paintings/paint4.jpg'
-import paint5 from '../public/img/paintings/paint5.jpg'
-import paint6 from '../public/img/paintings/paint6.jpg'
-import paint7 from '../public/img/paintings/paint7.jpg'
-import paint8 from '../public/img/paintings/paint8.jpg'
-import paint9 from '../public/img/paintings/paint9.jpg'
-import paint10 from '../public/img/paintings/paint10.jpg'
+import paint1 from '../public/img/paint1.jpg'
+import paint2 from '../public/img/paint2.jpg'
+import paint3 from '../public/img/paint3.jpg'
+import paint4 from '../public/img/paint4.jpg'
+import paint5 from '../public/img/paint5.jpg'
+import paint6 from '../public/img/paint6.jpg'
+import paint7 from '../public/img/paint7.jpg'
+import paint8 from '../public/img/paint8.jpg'
+import paint9 from '../public/img/paint9.jpg'
+import paint10 from '../public/img/paint10.jpg'
 
 
 export default function Paint(){
