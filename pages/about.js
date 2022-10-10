@@ -6,7 +6,7 @@ import styles from "../components/about/about.module.css"
 
 import Image from 'next/image'
 
-import about1 from '../public/img/about/about1.jpg'
+import about1 from '../public/img/about1.jpg'
 import about2 from '../public/img/about/about2.jpg'
 import about3 from '../public/img/about/about3.jpg'
 import about4 from '../public/img/about/about4.jpg'
