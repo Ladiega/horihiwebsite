@@ -1,3 +1,5 @@
+import Head from "next/head"
+
 import Navbar from "../components/navbar"
 
 import styles from "../components/about/about.module.css"
@@ -16,6 +18,9 @@ import Footer from '../components/footer/index'
 export default function Paint(){
     return(
         <div className="paint_container">
+            <Head>
+            <title>Hori-Hi About</title>
+            </Head>
         
             <Navbar/>
             <section className="section_one_container">

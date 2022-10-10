@@ -1,5 +1,7 @@
 import ReactPlayer from 'react-player'
 
+import Head from 'next/head'
+
 import Navbar from '../components/navbar/index'
 import Form from '../components/form/index'
 import Footer from '../components/footer/index'
@@ -8,7 +10,9 @@ import Footer from '../components/footer/index'
 export default function AboutMe(){
     return(
         <div className="about_global_container">
-            
+            <Head>
+            <title>Hori-Hi Contact</title>
+            </Head>
             <Navbar className='nav_container'/>
             
             <div className="about_container4">

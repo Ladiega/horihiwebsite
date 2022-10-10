@@ -1,3 +1,5 @@
+import Head from "next/head"
+
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
 
@@ -36,6 +38,9 @@ import photo26 from '../public/img/tattoos/photo26.png'
 export default function Tattoo(){
     return(
         <div className="tattoo_container">
+            <Head>
+            <title>Hori-Hi Tattoo</title>
+            </Head>
             <Navbar/>
             <div className="gallery_container">
                 <div className="photo">

@@ -1,3 +1,5 @@
+import Head from "next/head"
+
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
 
@@ -18,6 +20,9 @@ import paint10 from '../public/img/paintings/paint10.jpg'
 export default function Paint(){
     return(
         <div className="paint_contianer">
+            <Head>
+            <title>Hori-Hi Painting</title>
+            </Head>
             <Navbar/>
 
             <div className="gallery_container">
