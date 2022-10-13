@@ -170,13 +170,17 @@ Hope to see you soon!!!.</p>
                 src={tattoo3}
               />
             </div>
-            <div className="container3_text3">
+            
+          </div>
+
+          <div className="container3_text3">
               <Link href="/tattoo">
-                <a>vewAll</a>
+                <a>Vew All</a>
               </Link>
             
             </div>
-          </div>
+
+          
 
           <div className="container3_text4">入れ墨</div>
         
@@ -423,7 +427,7 @@ Hope to see you soon!!!.</p>
 
           .container3_img{
             display:flex;
-            flex-direction:column;
+            justify-content:center;
             align-items:center;       
             text-align:center;
           }
@@ -454,15 +458,25 @@ Hope to see you soon!!!.</p>
           }
 
           .container3_text3{
+            text-align:center;
             background:white;
             color:black;
-            font-size:12px;
+            width:5rem;
+            font-size:16px;
             font-weight:500;
             margin-top:2rem;
-            padding-left:1.5rem;
-            padding-right:1.5rem;
+
+            margin-right:auto;
+            margin-left:auto;
+            
             border-radius:0.5rem;
             cursor:pointer;
+          }
+
+          .container3_text3:hover{
+            background-color:red;
+            color:white;
+            transition:2s;
           }
           .container3_text4{
             font-size:18px;
