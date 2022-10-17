@@ -4,19 +4,15 @@ import Script from 'next/script'
 
 import Ham from '../components/hamButton/index'
 
+import Tattoo from '../components/tattoo/index'
+import Paintings from '../components/paintings/index'
+
+
 import Image from 'next/image'
 
 import rlogo from '../public/img/rlogo.svg'
 import horihibaner from '../public/img/horihibaner.svg'
 import imgprofile from '../public/img/imgprofile.svg'
-
-import tattoo1 from '../public/img/tattoo1.svg'
-import tattoo2 from '../public/img/tattoo2.svg'
-import tattoo3 from '../public/img/tattoo3.svg'
-
-import tattoo4 from '../public/img/tattoo4.svg'
-import tattoo5 from '../public/img/tattoo5.svg'
-import tattoo6 from '../public/img/tattoo6.svg'
 
 
 import Form from '../components/form/index'
@@ -140,91 +136,13 @@ Hope to see you soon!!!.</p>
 
 
         </div>
-        <div id="layer3" className="layer_container3">
 
-          <div className="container3_text">
-            <div className="container3_text1">TATTOO</div>
-            <div className="container3_text2">入れ墨</div>
-          </div>
-
-          <div className="container3_img">
-            <div className="container3_img1">
-              <Image
-                alt="tattoo1"
-                src={tattoo1}
-              />
-            </div>
-            <div className="container3_dot1"></div>
-
-            <div className="container3_img2">
-              <Image
-                alt="tattoo2"
-                src={tattoo2}
-              />
-            </div>
-
-            <div className="container3_dot2"></div>
-            <div className="container3_img3">
-              <Image
-                alt="tattoo3"
-                src={tattoo3}
-              />
-            </div>
-            
-          </div>
-
-          <div className="container3_text3">
-              <Link href="/tattoo">
-                <a>Vew All</a>
-              </Link>
-            
-            </div>
-
-          
-
-          <div className="container3_text4">入れ墨</div>
+        <Paintings/> 
+        <Tattoo/>
         
-        </div>
 
 
-
-        <div id="layer4" className="layer_container4">
-          <div className="container4_text">
-            <div className="container4_text1">絵画 </div>
-            <div className="container4_text2">PAINTINGS<div 
-            className="container4_dot1"></div>
-            </div>
-            
-          </div>
-          <div className="container4_img">
-            <div className="container4_img1">
-              <Image
-              alt="tattoo4"
-              src={tattoo4}
-              />
-            </div>
-            <div className="container4_img2">
-              <Image
-              alt="tattoo5"
-              src={tattoo5}
-              />
-            </div>
-            <div className="container4_img3">
-              <Image
-              alt="tattoo6"
-              src={tattoo6}
-              />
-            </div>
-            <div className="container4_text3">
-             <Link href='/paintings'>
-             <a>vewAll</a>
-             
-             </Link> 
-            </div>
-          </div>
-          <div className="container4_text4">絵画</div>
-
-        </div>
+        
 
 
         
@@ -248,6 +166,7 @@ Hope to see you soon!!!.</p>
             
           }
           .nav_container{
+            
             background:white;
             display:flex;
             justify-content: space-between;
@@ -397,110 +316,7 @@ Hope to see you soon!!!.</p>
           }
 
 
-          .layer_container3{
-            background:black;
-            color:white;
-            padding-top:2rem;
-
-          }
-
-          .container3_text{
-            display:flex;
-            justify-content:space-between;
-            margin-left:2rem;
-            margin-right:1.5rem;
-            
-          }
-
-          .container3_text1{
-            font-size:18px;
-            font-weight:900;
-            writing-mode:vertical-rl;
-            text-orientation:upright;
-          }
-          .container3_text2{
-            font-size:18px;
-            font-weight:400;
-            writing-mode:vertical-rl;
-            text-orientation:upright;
-          }
-
-          .container3_img{
-            display:flex;
-            justify-content:center;
-            align-items:center;       
-            text-align:center;
-         
-          }
           
-          .container3_img1{
-            cursor:pointer;
-            filter:grayscale(1);
-          }
-          .container3_img1:hover{
-            filter:none;
-          }
-          .container3_dot1{
-            background:red;
-            border-radius:50%;
-            width:0.5rem;
-            height:0.5rem;
-            margin-top:0.5rem;
-            margin-bottom:0.5rem;           
-          }
-          .container3_img2{
-            cursor:pointer;
-            filter:grayscale(1);
-          }
-          .container3_img2:hover{
-            filter:none;
-          }
-          .container3_dot2{
-            background:red;
-            border-radius:50%;
-            width:0.5rem;
-            height:0.5rem;
-            margin-top:0.5rem;
-            margin-bottom:0.5rem;
-          }
-          .container3_img3{
-            cursor:pointer;
-            filter:grayscale(1);
-          }
-          .container3_img3:hover{
-            filter:none; 
-          }
-
-          .container3_text3{
-            text-align:center;
-            background:white;
-            color:black;
-            width:5rem;
-            font-size:16px;
-            font-weight:500;
-            margin-top:2rem;
-
-            margin-right:auto;
-            margin-left:auto;
-            
-            border-radius:0.5rem;
-            cursor:pointer;
-          }
-
-          .container3_text3:hover{
-            background-color:red;
-            color:white;
-            transition:2s;
-          }
-          .container3_text4{
-            font-size:18px;
-            font-weight:400;
-            writing-mode:vertical-rl;
-            text-orientation:upright;
-            margin-left:2rem;
-            padding-bottom:2rem;
-          }
-
 
 
           .layer_container4{

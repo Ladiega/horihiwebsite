@@ -1,7 +1,7 @@
 import Link from 'next/link' 
 import Image from 'next/image'
+import Ham from '../hamButton/index'
 
-import hmenu from '../../public/img/hamMenu.svg'
 import rlogo from '../../public/img/rlogo.svg'
 
 
@@ -11,10 +11,7 @@ export default function Navbar (){
     <div>
         <div className="nav_container">
                 <div className="nav_item nav_items1">
-                <Image
-                alt="hmenu"
-                src={hmenu}
-                />
+                <Ham/>
                        
                 </div>
         
