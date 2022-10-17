@@ -430,9 +430,15 @@ Hope to see you soon!!!.</p>
             justify-content:center;
             align-items:center;       
             text-align:center;
+         
           }
+          
           .container3_img1{
             cursor:pointer;
+            filter:grayscale(1);
+          }
+          .container3_img1:hover{
+            filter:none;
           }
           .container3_dot1{
             background:red;
@@ -444,6 +450,10 @@ Hope to see you soon!!!.</p>
           }
           .container3_img2{
             cursor:pointer;
+            filter:grayscale(1);
+          }
+          .container3_img2:hover{
+            filter:none;
           }
           .container3_dot2{
             background:red;
@@ -455,6 +465,10 @@ Hope to see you soon!!!.</p>
           }
           .container3_img3{
             cursor:pointer;
+            filter:grayscale(1);
+          }
+          .container3_img3:hover{
+            filter:none; 
           }
 
           .container3_text3{
