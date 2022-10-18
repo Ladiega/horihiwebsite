@@ -73,8 +73,9 @@ Hope to see you soon!!!.</p>
         <div className="global_text5">
 
           <div className="container2_text5">
-              <div className="container2_dot"></div>
+             <div className="container2_dot"></div>
               <div className="container2_learnmore">
+              
               <Link href="/about">
                 <a>LEARN MORE</a>
               </Link>
@@ -199,7 +200,8 @@ Hope to see you soon!!!.</p>
                    
           .container2_text5{
             display:flex;
-            align-items:end;
+            align-items:center;
+            margin-left:-0.5rem;
             cursor:pointer;
           
           }
@@ -217,7 +219,7 @@ Hope to see you soon!!!.</p>
             width:0.5rem;
             height:0.5rem;
             margin-right:0.5rem;
-            margin-bottom:0.5rem;
+            
           
           }
           .container2_learnmore > a{

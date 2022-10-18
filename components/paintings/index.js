@@ -2,9 +2,9 @@ import Link from 'next/link'
 
 import Image from 'next/image'
 
-import tattoo1 from '../../public/img/tattoo4.svg'
-import tattoo2 from '../../public/img/tattoo5.svg'
-import tattoo3 from '../../public/img/tattoo6.svg'
+import painting1 from '../../public/img/tattoo4.svg'
+import painting2 from '../../public/img/tattoo5.svg'
+import painting3 from '../../public/img/tattoo6.svg'
 
 
 export default function Paintings(){
@@ -18,26 +18,38 @@ export default function Paintings(){
 
     <div className="container3_img">
         <div className="container3_img1">
-        <Image
-            alt="tattoo1"
-            src={tattoo1}
-        />
+        <Link href="/tattoo">
+            <a>
+              <Image
+                alt="tattoo1"
+                src={painting1}
+              />
+            </a>
+          </Link>
     </div>
   <div className="container3_dot1"></div>
 
   <div className="container3_img2">
-    <Image
-      alt="tattoo2"
-      src={tattoo2}
-    />
+  <Link href="/tattoo">
+            <a>
+              <Image
+                alt="tattoo1"
+                src={painting2}
+              />
+            </a>
+          </Link>
   </div>
 
   <div className="container3_dot2"></div>
   <div className="container3_img3">
-    <Image
-      alt="tattoo3"
-      src={tattoo3}
-    />
+  <Link href="/tattoo">
+            <a>
+              <Image
+                alt="tattoo1"
+                src={painting3}
+              />
+            </a>
+          </Link>
   </div>
   
 </div>
@@ -77,8 +89,7 @@ export default function Paintings(){
             color:white;
             font-size:18px;
             font-weight:900;
-            writing-mode:vertical-rl;
-            text-orientation:upright;
+          
           }
           .container3_text2{
             color:white;
@@ -158,6 +169,7 @@ export default function Paintings(){
           .container3_text4{
             font-size:18px;
             font-weight:400;
+            color:white;
             writing-mode:vertical-rl;
             text-orientation:upright;
             margin-left:2rem;

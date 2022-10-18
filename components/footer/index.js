@@ -15,13 +15,19 @@ export default function Footer (){
 
             <div className="footer_container_grup2">
                 <div className="footer_container1_dot"></div>
-              <div className="followme">Follow me:</div>
-              <div className="instagram">Instagram</div>
-              <div className="jp">フォローしてください </div>
+                <div className="followme">Follow me:</div>
+                <Link href="https://www.instagram.com/ladiegatattoo">
+                  <a>
+                     <div className="instagram">Instagram</div>
+                      <div className="jp">フォローしてください </div>
+                  </a>
+                </Link>
+               
+                
             </div>
 
             <div className="instagram_logo">
-            <Link href='https://www.instagram.com/ladiegatattoo/?hl=es-la'>
+            <Link href='https://www.instagram.com/ladiegatattoo'>
              <a>
               <Image
               alt="instalogo"
@@ -35,7 +41,7 @@ export default function Footer (){
            
             <div className="footer_group3_2">
                 <div className="footer_container_group3_dot2"></div>
-              <div className="footer_group3_1">Desing by:</div>
+              <div className="footer_group3_1">Website built by:</div>
               <div className="footer_group3_2_2">LadiegaTattoo</div>
               <div className="footer_group3_3">のデザインです</div>
             </div>
@@ -55,8 +61,12 @@ export default function Footer (){
             <a>HOME</a>
             </Link>
           </div>
-          <div className="footer_container2_2">ホームページ
-          </div>
+          <Link href="/">
+            <a>
+            <div className="footer_container2_2">ホームページ</div>
+            </a>
+          </Link>
+         
         </div>
 
         <style jsx>
@@ -76,19 +86,24 @@ export default function Footer (){
             border-radius:50%;
             height:0.5rem;
             width:0.5rem;
+            margin-top:1rem;
             margin-right:1rem;
           }
           .followme{
             margin-top:0.5rem;
             text-align:left;
             font-weight:700;
+            
           }
+          
           .instagram{
             font-weight:400;
             text-align:left;
+            color:black;
           }
           .jp{
             font-weight:200;
+            color:black;
           }
           .instagram_logo{
             cursor:pointer;
@@ -145,6 +160,7 @@ export default function Footer (){
           }
           .footer_container2_2{
             margin-right:2rem;
+            color:white;
           }
 
             

@@ -83,9 +83,7 @@ export default function Form(){
           }
           .container5_text1{
             margin-left:2rem;
-            writing-mode:vertical-rl;
-            text-orientation:upright;
-
+          
           }
 
           

@@ -18,26 +18,38 @@ export default function Tattoo(){
 
     <div className="container3_img">
         <div className="container3_img1">
-        <Image
-            alt="tattoo1"
-            src={tattoo1}
-        />
+          <Link href="/tattoo">
+            <a>
+              <Image
+                alt="tattoo1"
+                src={tattoo1}
+              />
+            </a>
+          </Link>
     </div>
   <div className="container3_dot1"></div>
 
   <div className="container3_img2">
-    <Image
-      alt="tattoo2"
-      src={tattoo2}
-    />
+  <Link href="/tattoo">
+            <a>
+              <Image
+                alt="tattoo1"
+                src={tattoo2}
+              />
+            </a>
+          </Link>
   </div>
 
   <div className="container3_dot2"></div>
   <div className="container3_img3">
-    <Image
-      alt="tattoo3"
-      src={tattoo3}
-    />
+  <Link href="/tattoo">
+            <a>
+              <Image
+                alt="tattoo1"
+                src={tattoo3}
+              />
+            </a>
+          </Link>
   </div>
   
 </div>
@@ -76,8 +88,7 @@ export default function Tattoo(){
           .container3_text1{
             font-size:18px;
             font-weight:900;
-            writing-mode:vertical-rl;
-            text-orientation:upright;
+           
           }
           .container3_text2{
             font-size:18px;
