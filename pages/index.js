@@ -48,11 +48,12 @@ export default function Home (){
          
          <div className="global_text1">
           <div className="container2_text1">
-            <p> 私について</p>
+            <p>ABOUT ME </p>
+            
           </div>
           <div className="container2_text2">
-            <div>ABOUT ME</div>
-            <div className="container2_dot1"></div>
+            <div>私について</div>
+            
           </div>
          </div>
          
@@ -82,7 +83,7 @@ Hope to see you soon!!!.</p>
               </div>
           </div>
         
-            <div className="container2_text6">私について</div>
+            
         
         </div>
 
@@ -150,11 +151,10 @@ Hope to see you soon!!!.</p>
              margin-top:1rem;
           }
           .container2_text1{
-           writing-mode:vertical-rl;
-           text-orientation:upright;
+            display:flex;                    
            margin-left:1.5rem;
-            font-weight:700;
-            font-size:14px:
+            font-weight:900;
+            font-size:18px:
             
           }
           .container2_text2{
@@ -304,16 +304,7 @@ Hope to see you soon!!!.</p>
           
           
 
-          @media (max-width:600px){
-            .nav_container{
-              display:block;
-              display:flex;
-              
-            }
-            .navbar2_container{
-              display:none
-            }
-          }
+          
         `}
       </style>
       <Script strategy="lazyOnload">
