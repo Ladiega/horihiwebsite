@@ -20,8 +20,8 @@ export default function Form(){
                       </label>
                     </div>
                     <div className="email">
-                        <label htmlFor="last">Last Name :</label>
-                        <input type="text" name="last" id="last"/>
+                        <label htmlFor="last">LastName: </label>
+                        <input type="text" name="last" id="last" required/>
                     </div>
                    
                    <div className="email">
@@ -56,6 +56,15 @@ export default function Form(){
         </div>
 
         <style jsx>{`
+          #first{
+            margin-left:2.5rem;
+          }
+          #last{
+            margin-left:0.5rem;
+          }
+          #email{
+            margin-left:2.7rem;
+          }
         .layer_container5{
             background:black;
             color:white;

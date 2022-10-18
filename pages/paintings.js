@@ -23,7 +23,7 @@ export default function Paint(){
             <Head>
             <title>Hori-Hi Painting</title>
             </Head>
-            <Navbar/>
+            <Navbar className='navbar'/>
 
             <div className="gallery_container">
                 <div className="photo">
@@ -93,6 +93,7 @@ export default function Paint(){
             <Footer/>
             <style jsx>
                 {`
+                
                     .gallery_container{
                         text-align:center;
                     }

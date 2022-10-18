@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Ham from '../hamButton/index'
 
 import rlogo from '../../public/img/rlogo.svg'
-
+import Insta from '../../public/img/instalogo.svg'
 
 
 export default function Navbar (){
@@ -27,7 +27,17 @@ export default function Navbar (){
                 </Link>
        
             </div>
-            <div className="nav_item nav_items3">HORI-HI</div>
+            <div className="nav_item nav_items3">
+            <Link href="https://www.instagram.com/ladiegatattoo/">
+                    <a>              
+                    <Image
+                    alt="insta"
+                    src={Insta}
+                    /> 
+                    </a> 
+                
+                </Link>
+            </div>
         
         
         </div>
