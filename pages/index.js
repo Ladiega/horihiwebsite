@@ -27,11 +27,9 @@ export default function Home (){
         <link rel="icon" href="favicon.ico"/>
       </Head>
 
+      <Navbar className="navbar"/>
       <div className="global_container">
-        
-      <Navbar/>
-
-
+       
         <div className="layer_container1">
         <div className="container1_img">
         <Image
@@ -110,12 +108,11 @@ Hope to see you soon!!!.</p>
             * > a{
               color:black;
             }
+         
         
           .global_container{
             background:none;
-            font-family: 'Noto Sans JP', sans-serif;
-            
-            
+            font-family: 'Noto Sans JP', sans-serif;            
             
           }
           
